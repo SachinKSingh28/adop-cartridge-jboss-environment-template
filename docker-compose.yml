@@ -8,7 +8,7 @@ tomcat:
   privileged: true
   expose:
     - "8080"
-    - "9000"
+    - "9990"
   labels:
     - "PROJECT_NAME=${PROJECT_NAME}"
     - "ENVIRONMENT_NAME=${ENVIRONMENT_NAME}"
