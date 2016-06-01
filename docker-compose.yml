@@ -9,6 +9,8 @@ tomcat:
   expose:
     - "8080"
     - "9990"
+  environment:
+    - JBOSS_PASS="mypass"
   labels:
     - "PROJECT_NAME=${PROJECT_NAME}"
     - "ENVIRONMENT_NAME=${ENVIRONMENT_NAME}"
